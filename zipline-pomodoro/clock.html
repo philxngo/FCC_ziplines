@@ -1,0 +1,80 @@
+<body>
+	<header>
+		<h1>Pomodoro Clock</h1>
+	</header>
+
+	<section id="top-settings">
+	<div class="container">
+	  	<div class="row vertical-center-row">
+		    <div class="col-md-6 col-xs-6">
+		      	<div class="break-text">
+		      		Break
+		      	</div>
+		      	<div class="break-control">
+					<button href="#" class="btn btn-default" id="brk-left">
+						<span class="glyphicon glyphicon-triangle-left"></span>
+					</button>
+					<span class="break-time-text">5</span>
+					<button class="btn btn-default" id="brk-right">
+						<span class="glyphicon glyphicon-triangle-right"></span>
+					</button>
+		      	</div>
+		    </div>
+		    <div class="col-md-6 col-xs-6">
+		      	<div class="session-text">
+		      		Session
+		      	</div>
+		      	<div class="session-control">
+			    	<button class="btn btn-default" id="session-left">
+							<span class="glyphicon glyphicon-triangle-left"></span>
+					</button>
+					<span class="session-time-text">25</span>
+					<button class="btn btn-default" id="session-right">
+						<span class="glyphicon glyphicon-triangle-right"></span>
+					</button>
+				</div>
+		    </div>
+	  	</div>
+
+
+	</div>
+	</section>
+
+	<section id="middle-clock">
+	<div class="container">
+	  	<div class="row">
+		    <div class="col-md-offset-2 col-md-8 col-xs-12">
+		      	<div class="clock-display">
+		      		<h3 class="status-text">Session</h3>
+	      			<h3 class="clock-text">25:00</h3>
+		      	</div>
+		    </div>
+	    </div>
+	    <div class="row">
+	    	<div class="col-md-offset-2 col-md-8 col-xs-12">
+				<div class="progress">
+					<div class="progress-bar progress-bar-success" role="progressbar">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="bottom-controls">
+	<div class="container">
+	  	<div class="row">
+		    <div class="col-md-offset-2 col-md-8 col-xs-12">
+				<div class="btn-group btn-group-justified" role="group">
+					<div class="btn-group" role="group">
+						<a id="clk-btn" class="btn btn-success">Start</a>
+					</div>
+					<div class="btn-group" role="group">
+						<a id="rst-btn" class="btn btn-danger">Reset</a>
+					</div>
+				</div>
+			</div>
+	    </div>
+    </div>
+	</section>
+</body>

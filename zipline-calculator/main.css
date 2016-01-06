@@ -1,0 +1,12 @@
+#screen {
+  text-align:right;
+  margin-top: 10%;
+  margin-bottom:.5em;
+  background:#333;
+  color:#FFF;
+  font-size:3em;
+}
+
+.btn {
+  margin-top: 1px;
+}

@@ -1,0 +1,119 @@
+body{
+	color: #111111;
+}
+
+header{ 
+	background-color: #DDDDDD; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-bottom: 1.5em;
+}
+
+.header-text {
+	padding-top: 25%;
+	padding-bottom: 25%;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.name {
+	font-size: 2.5em;
+}
+
+.subline {
+	font-size: 1.25em;
+	line-height: 1em;
+}
+
+#about article figure{
+	margin:0 auto;
+	max-width:20em;
+}
+	
+#about article figure img{
+	width:100%;
+	border-radius: 50%;
+}
+
+#about{
+	position:relative;
+	padding-top: 3em;
+	margin-bottom: 3em;
+}
+
+#about article{
+	margin:0 auto;
+	max-width:460px;
+}
+
+#about article h3{
+	text-align:center;
+	padding:.5em 0;
+}
+
+#about article p{
+	text-align:center;
+	font-size:1.25em;
+}
+
+h3{
+	font-size:2em;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+#work{
+	position:relative;
+	padding-top:3em;
+	margin-bottom:6em;
+}
+
+h2{
+	text-align:center;
+	font-size:3.5em;
+	font-weight:400;
+	padding-top:1em;
+	margin-bottom: 1em;
+}
+
+footer {
+	background-color: #DDDDDD; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.contact-list{
+	overflow:hidden;
+	margin:0 auto;
+	max-width:70%;
+	padding:0;
+}
+
+footer .contact-list li{
+	width:50%;
+	padding-top:1em;
+	padding-bottom:1em;
+	display:block;
+	float:left;
+}
+
+footer .contact-list a{
+	display:block;
+	text-align:center;
+	color: #111111;
+	font-size:1.25em;
+	text-decoration: none;
+}
+
+footer .contact-list a:hover{
+	color:#FFFFFF;
+}
